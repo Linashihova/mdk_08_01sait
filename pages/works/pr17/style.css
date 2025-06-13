@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background: rgb(236, 236, 236);
+}
+header{
+    background: url(img/111.png);
+    height: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 480px;
+}
+.menu{
+    display: flex;
+    height: 50px;
+    margin: 10px 25px 0px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-nav img{
+    width: 40px;
+    height: 20px;
+}
+.menu-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.line{
+    background: red;
+    width: 190px;
+    height: 4px;
+    margin-top: 11px;
+    margin-left: 160px;
+}
+h1{
+    color: white;
+}
+.follow{
+    color: white;
+    display: flex;
+    gap: 65px;
+    margin: 20px 40px 10px 40px;
+}
+.follow h3{
+    font-size: 16px;
+}
+h1{
+    margin-left: 25px;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+    color: grey;
+}
+.cont{
+    font-size: 34px;
+    color: white;
+    margin-left: 20px;
+}
+.block1{
+        justify-content: center;
+
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 480px;
+        justify-content: center;
+
+}
+article{
+    width: 150px;
+        justify-content: center;
+
+}
+h4{
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+.name{
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+}
+.img{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.img1{
+    background: url(img/112.png);
+        background-size: contain;
+}
+.img2{
+    background: url(img/114.png);
+        background-size: contain;
+}
+.img3{
+    background: url(img/115.png);
+        background-size: contain;
+}
+.img4{
+    background: url(img/1.png);
+        background-size: contain;
+}
+.img5{
+    background: url(img/26.png);
+        background-size: contain;
+}
+.img6{
+    background: url(img/22.png);
+        background-size: contain;
+}
+.img7{
+    background: url(img/114.png);
+        background-size: contain;
+}
+.img8{
+    background: url(img/112.png);
+        background-size: contain;
+}
+.img9{
+    background: url(img/115.png);
+        background-size: contain;
+}
+.img10{
+    background: url(img/26.png);
+        background-size: contain;
+}
+.img11{
+    background: url(img/113.png);
+        background-size: contain;
+}
+.img12{
+    background: url(img/1.png);
+        background-size: contain;
+}
+footer{
+    margin: 20px;
+}
