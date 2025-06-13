@@ -1,0 +1,180 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.prew{
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+.new1{
+    background:url("../img/new1.jfif") ;
+    background-size: cover;
+}
+.new2{
+    background:url("../img/new2.jpg") ;
+    background-size: cover;
+}
+.new3{
+    background:url("../img/new3.jpg") ;
+    background-size: cover;
+}
+body{
+    background-color: rgb(238, 220, 205);
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+div{
+    font-size: 16px;
+}
+a{
+    font-size: 14px;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: rgb(138, 83, 31);
+}
+li{
+    padding: 15px;
+}
+ul li a{
+    color: beige;
+    font-size: 18px;
+}
+section{
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    height: 80px;
+}
+.nav article, .krs article{
+    width: 300px;
+}
+.nav1{
+    background: rgb(248, 248, 248);
+}
+.nav2{
+    background: rgb(248, 248, 248);
+}
+.nav3{
+    background: rgb(248, 248, 248);
+}
+.krs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.krs{
+    height: 200px;
+}
+.krs1{
+    background: url("https://mark-agency.ru/wp-content/uploads/2020/05/sertigikat-41.jpg") center center;
+    background-size: cover;
+}
+.krs2{
+    background: url("https://avatars.mds.yandex.net/i?id=470e14c894f4814b865ed1ba33daa75d_l-5448663-images-thumbs&n=13") center center;
+    background-size: cover;
+}
+footer{
+    padding:40px;
+}
+.content{
+    display: flex;
+}
+main{
+    width: 90%;
+}
+aside{
+    background: rgb(53, 35, 2);
+    width: 10%;
+}
+aside p{
+    color: beige;
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-indent: 20px;
+}
+.p3{
+    line-height: 200%; 
+}
+.p4 {
+    vertical-align: super;
+}
+.p5{
+    word-spacing: 7px;
+}
+.p6{
+    letter-spacing: 2px;
+}
+.p7{
+    white-space: pre;
+}
+.p8{
+    tab-size: 16;
+}
+.p9{
+    text-transform: capitalize;
+}
+.p10{
+    direction: rtl;
+}
+#p11{
+    unicode-bidi: bidi-override;
+}
+#p12{
+    text-decoration: line-through;
+}
+#p13::first-letter{
+    font-size: 2em;
+    margin-right: 2px; 
+    color: #EE9966;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+     
+}
+#p13::first-line{
+    color: #EE9966;
+}
+#p14{
+    quotes:'«' '»';
+}
+#p15{
+    font-family: 'Times New Roman', Times, serif;
+}
+#p16{
+    font-style: oblique;
+}
+#p17{
+    font-variant: small-caps;
+}
+#p18{
+    font-weight: 700;
+}
+#p19{
+    font-size: small;
+}
+#p20{
+    color: rgb(248, 104, 195);
+}
+#p21{
+    font: bolder;
+}

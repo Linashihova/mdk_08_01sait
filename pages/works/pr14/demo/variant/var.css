@@ -1,0 +1,36 @@
+body {   
+    color: #fff;   
+    font: 600 24px; 
+}   
+@keyframes blink {
+  0%, 50%, 100% { opacity:1; }
+  25%,75% { opacity:0; }
+} 
+.box:hover {
+  font-size:24px;
+  animation-name: blink;
+  animation-duration:1s;
+}
+.box{
+    color: red;
+    font-size:24px;
+}
+.nav{
+    display: flex;
+    height: 80px;
+}
+ul li{
+    display: inline-block;
+}
+a{
+      color: white;
+      text-decoration: overline;
+      margin: 10px;
+      font-size: 18px;
+}
+h1, p{
+  color: black;
+}
+ul{
+    background: rgb(138, 83, 31);
+}

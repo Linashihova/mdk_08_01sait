@@ -1,0 +1,70 @@
+*{
+    color: white;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins.zip);
+}
+h1{
+    font-size: 32px;
+}
+h3{
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+    color: rgb(152, 152, 152);
+}
+.p1{
+    margin-top: 50px;
+}
+.glav{
+    background: black;
+    width: 1920px;
+    height: 1080px;
+}
+.content{
+    width: 1170px;
+    height: 718px;
+    margin-left: 375px;
+    padding-top: 143px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.block{
+    width: 370px;
+    height: 529px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.img{
+    width: 310px;
+    height: 380px;
+}
+.opisanie{
+    margin-left: 32px;
+}
+.opisanie p{
+    margin-top: 20px;
+}
+.img1{
+    background: url(img/1png.png);
+    background-size: cover;
+}
+.img2{
+    background: url(img/2.png) center;
+    background-size: cover;
+}
+.img3{
+    background: url(img/3.png) center;
+    background-size: cover;
+}

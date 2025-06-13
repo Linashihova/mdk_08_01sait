@@ -1,0 +1,39 @@
+body {   
+    color: #fff;   
+    font: 600 24px; 
+} 
+.box {   
+    background: #2db34a;   
+    border-radius: 6px;   
+    cursor: pointer;   
+    height: 95px;   
+    line-height: 95px;   
+    text-align: center;   
+    transition-property: background;  
+    transition-duration: 1s;  
+    transition-timing-function: linear;  
+    width: 95px;  
+} 
+.box:hover { 
+  background: #ff7b29;
+  border-radius: 50px; 
+} 
+.nav{
+    display: flex;
+    height: 80px;
+}
+ul li{
+    display: inline-block;
+}
+a{
+      color: white;
+      text-decoration: overline;
+      margin: 10px;
+      font-size: 18px;
+}
+h1, p{
+  color: black;
+}
+ul{
+    background: rgb(138, 83, 31);
+}

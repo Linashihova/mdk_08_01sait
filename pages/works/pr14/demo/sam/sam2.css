@@ -1,0 +1,52 @@
+@keyframes slide{
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 20px;
+        top: 0;
+    }
+}
+.stage{
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 538px;
+}
+.stage:hover .square{
+ animation-name: slide;
+ animation-duration: 2s;
+ animation-timing-function: ease;
+ animation-delay: .5s;
+}
+.square{
+    background: #70b0ec;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    border: black;
+}
+figure{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    height: 80px;
+}
+ul li{
+    display: inline-block;
+}
+a{
+      color: white;
+      text-decoration: overline;
+      margin: 10px;
+      font-size: 18px;
+}
+h1, p{
+  color: black;
+}
+ul{
+    background: rgb(138, 83, 31);
+}

@@ -1,0 +1,95 @@
+*{
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h6{
+    line-height: 0 ;
+    text-align: center;
+}
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: #fff;
+    width: 850px;
+}
+.block{
+    width: 190px;
+    margin-bottom: 40px;
+}
+.image{
+    height: 280px;
+    margin: 10px 10px 35px 10px;
+}
+.image1{
+    background: url(img/часы1.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image2{
+    background: url(img/часы2.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image3{
+    background: url(img/часы3.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image4{
+    background: url(img/часы4.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image5{
+    background: url(img/часы5.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image6{
+    background: url(img/часы6.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image7{
+    background: url(img/часы7.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image8{
+    background: url(img/часы8.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article{
+    display:block;
+}
+.price{
+    display: inline;
+    margin: 0;
+}
+.price1{
+    text-decoration: line-through;
+    font-size: 10px;
+}
+.price2{
+    background: black;
+    color: #fff;
+}
+.block4{
+    text-align: center;
+}
+.nazv{
+    text-decoration: underline;
+}
+
+.rassr{
+    font-size: 9px;
+    margin: 5px;
+}

@@ -1,0 +1,29 @@
+button{
+    background: #00a7cf;
+    padding: 1rem 2rem;
+    color: #fff;
+    border: none;
+    transition: 1s;
+}
+button:hover{
+    background: #006680;
+}
+.nav{
+    display: flex;
+    height: 80px;
+}
+ul li{
+    display: inline-block;
+}
+a{
+      color: white;
+      text-decoration: overline;
+      margin: 10px;
+      font-size: 18px;
+}
+h1, p{
+  color: black;
+}
+ul{
+    background: rgb(138, 83, 31);
+}
