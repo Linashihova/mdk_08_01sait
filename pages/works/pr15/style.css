@@ -1,0 +1,43 @@
+.content{
+    width: 1275px;
+    height: 631px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+main h1{
+    text-align: center;
+}
+.img1{
+    width: 489px;
+    height: 630px;
+    grid-row: span 3;
+    background: url(img/image\ 1.png);
+    background-repeat: no-repeat;
+}
+.img2{
+    width: 375px;
+    height: 255px;
+    background: url(img/image\ 2.png);
+}
+.img3{
+    width: 375px;
+    height: 255px;
+    background: url(img/image\ 3.png);
+}
+.img4{
+    grid-column: span 2;
+    width: 779px;
+    height: 97px;
+}
+.img5{
+    width: 375px;
+    height: 240px;
+    background: url(img/image\ 4.png);
+}
+.img6{
+    width: 375px;
+    height: 240px;
+    background: url(img/image\ 5.png);
+}
